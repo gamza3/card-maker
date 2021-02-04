@@ -1,10 +1,12 @@
 import React from 'react';
+import styles from './header.module.css';
 
-const Header = () => {
+const Header = (onLogout) => {
     return (
-        <div>
-            
-        </div>
+        <header className={styles.header}>
+            {onLogout && <button onClick={onLogout} className={styles.logout}>Logout</button>}
+            <h1 className={styles.title}>Business Card Maker</h1>
+        </header>
     );
 };
 

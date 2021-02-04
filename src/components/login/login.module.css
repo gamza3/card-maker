@@ -1,0 +1,31 @@
+.login__wrapper {
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 0.1rem solid gray;
+}
+
+.login__section {
+    text-align: center;
+}
+.buttons {
+    list-style: none;
+    padding: 0;
+}
+
+.buttons li {
+    padding: 0.5rem 0;
+}
+
+.buttons button {
+    background-color: bisque;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    color: #000;
+    border: 0;
+    width: 10rem;
+    cursor: pointer;
+}
+
